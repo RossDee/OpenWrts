@@ -7,7 +7,6 @@ sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_genera
 # Hello World
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git Openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-echo 'src-git passwall https://github.com/RossDee/luci-app-passwall' >>feeds.conf.default
 
 # luci-theme-infinityfreedom
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
