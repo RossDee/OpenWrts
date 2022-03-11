@@ -10,6 +10,8 @@ echo 'src-git Openclash https://github.com/vernesong/OpenClash' >>feeds.conf.def
 
 # luci-theme-infinityfreedom
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
+#netmaker
+echo 'src-git netmaker http://github.com/sbilly/netmaker-openwrt.git' >>feeds.conf.default
 
 # 替换默认主题
 rm -rf package/lean/luci-theme-argon 
